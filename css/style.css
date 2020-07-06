@@ -1,0 +1,59 @@
+/* Start banner section */
+.banner-content {
+    padding: 0 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: gray;
+}
+
+.carousel-indicators li {
+    background-color: orange;
+}
+
+.carousel-indicators li.active {
+    background-color: rgb(255, 81, 0);
+}
+
+.buy-now-button {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+
+/* Start product section */
+.card-footer {
+    border: none;
+    background-color: white;
+}
+
+.card {
+    padding: 2%;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.product-title {
+    padding-top: 4%;
+}
+
+.product-title h6 {
+    color: orange;
+}
+
+.cat-heading {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 10px;
+    padding: 8%;
+}
+
+.single-cat {
+    box-shadow: 2px 2px 8px gray;
+    padding: 10%;
+    margin: 5% 0;
+    border-radius: 10px;
+}
