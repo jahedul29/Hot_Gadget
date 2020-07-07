@@ -1,4 +1,7 @@
 /* Start banner section */
+
+.banner {}
+
 .banner-content {
     padding: 0 10%;
 }
@@ -9,11 +12,16 @@
 }
 
 .carousel-indicators li {
-    background-color: orange;
+    background: #CECECE;
+    width: 15px;
+    height: 10px;
+    border: none;
+    border-radius: 15px;
 }
 
 .carousel-indicators li.active {
-    background-color: rgb(255, 81, 0);
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    width: 45px;
 }
 
 .buy-now-button {
@@ -35,6 +43,12 @@
     box-shadow: 3px 3px 5px gray;
 }
 
+.card:hover,
+.single-cat-left:hover,
+.single-cat-right:hover {
+    box-shadow: none;
+}
+
 .product-title {
     padding-top: 4%;
 }
@@ -45,15 +59,27 @@
 
 .cat-heading {
     text-align: center;
-    text-decoration: underline;
-    text-decoration-color: orange;
-    text-decoration-thickness: 10px;
-    padding: 8%;
+    padding-top: 5%;
 }
 
-.single-cat {
+.category hr {
+    width: 100px;
+    background: linear-gradient(to right, #FF9C35, #FFD019);
+    height: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.single-cat-right {
+    border-radius: 10px 0px 15px 0px;
     box-shadow: 2px 2px 8px gray;
     padding: 10%;
     margin: 5% 0;
-    border-radius: 10px;
+}
+
+.single-cat-left {
+    border-radius: 0px 10px 0px 15px;
+    box-shadow: 2px 2px 8px gray;
+    padding: 10%;
+    margin: 5% 0;
 }
